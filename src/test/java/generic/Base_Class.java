@@ -18,6 +18,11 @@ import org.testng.annotations.BeforeMethod;
 
 public class Base_Class {
 	
+ public void test()
+ {
+	 System.out.println("THis is the heart of the  framework");
+ }
+	
 	public WebDriver driver = null;
 	@BeforeMethod(groups= {"Smoke","Regression"})
 	public void launchbrowser()
